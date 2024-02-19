@@ -1,3 +1,4 @@
+# branch Master
 *  **CRITICAL:root:twint.run:Twint:Feed:noDataExpecting value: line 1 column 1 (char 0)**
 	* <u>Causa:</u> não entendi ao certo
 	* <u>Solução:</u> pip3 uninstall twint && pip3 install twint && pip3 install --user --upgrade git+https://github.com/twintproject/twint.git@origin/master#egg=twint
@@ -126,3 +127,6 @@
 					current_line=""
 
 *  **No such file or directory: 'global.properties'***( a Documentar)
+# branch pan2012
+* Current values: ServerApp.iopub_data_rate_limit=1000000.0 (bytes/sec) ServerApp.rate_limit_window=3.0 (secs) jupyterlab
+  * no terminal: jupyter lab --NotebookApp.iopub_data_rate_limit=10000000
